@@ -15,8 +15,7 @@ export function Header(props: HeaderProps) {
       <h3>{subTitle}</h3>
 
       <Name/>
-      {/* <input name="myInput" placeholder="type your name here" />
-      <p className="display-name"></p> */}
+    
     </div>
   );
 }
