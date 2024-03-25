@@ -1,4 +1,5 @@
 import React from "react";
+import { Name } from "../name/Name";
 
 interface HeaderProps {
   title: string;
@@ -12,8 +13,10 @@ export function Header(props: HeaderProps) {
     <div>
       <h1>{title}</h1>
       <h3>{subTitle}</h3>
-      <input name="myInput" placeholder="type your name here" />
-      <p className="display-name"></p>
+
+      <Name/>
+      {/* <input name="myInput" placeholder="type your name here" />
+      <p className="display-name"></p> */}
     </div>
   );
 }
