@@ -1,7 +1,19 @@
-import React from 'react'
+import React from "react";
 
-export default function Footer() {
+interface FooterProps {
+  contactPhone: string;
+  currentDate: string;
+  rights: string;
+}
+
+export function Footer(props: FooterProps) {
+  const { contactPhone, currentDate, rights } = props;
+
   return (
-    <div>Footer</div>
-  )
+    <div>
+      <span className="dataFooter"> {currentDate} </span>
+      <span className="dataFooter">{rights}</span>
+      <span className="dataFooter"> {contactPhone} </span>
+    </div>
+  );
 }
