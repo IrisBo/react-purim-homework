@@ -7,11 +7,12 @@ interface FooterProps {
 }
 
 export function Footer(props: FooterProps) {
-  const { contactPhone, currentDate, rights } = props;
+  const { contactPhone,currentDate, rights } = props;
+  // currentDate=new Date().toString
 
   return (
     <div>
-      <span className="dataFooter"> {currentDate} </span>
+      <span className="dataFooter">{currentDate} </span>
       <span className="dataFooter">{rights}</span>
       <span className="dataFooter"> {contactPhone} </span>
     </div>

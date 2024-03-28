@@ -2,7 +2,7 @@ import React from 'react'
 import { Header } from '../../components/header/Header'
 import { Footer } from '../../components/footer/Footer'
 import {titleData, subTitleData} from "../../data/Homepage-header"
-import { phoneNum,currentDate, allRights } from "../../data/Homepage-footer"
+import { phoneNum, allRights } from "../../data/Homepage-footer"
 import { Layout } from '../../components/layout/Layout'
 
 
